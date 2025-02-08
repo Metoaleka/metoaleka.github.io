@@ -3,45 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>መቶ አለቃ - የግንባታ መሳሪያ ማከፋፈያ</title>
+    <title>መቶ አለቃ - የግንባታ መሳሪያ አስመጪ እና አከፋፋየ</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; background: linear-gradient(to bottom, #2e7d32, #81c784); padding: 20px; color: white; }
-        header { background: #1b5e20; color: white; padding: 15px; text-align: center; border-radius: 10px; }
-        section { background: #388e3c; margin: 20px auto; padding: 15px; border-radius: 10px; width: 80%; }
-        footer { background: #1b5e20; color: white; padding: 10px; text-align: center; border-radius: 10px; }
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            background: linear-gradient(to bottom, #81c784, #2e7d32); 
+            padding: 20px; 
+            color: black; 
+        }
+        header, footer { 
+            background: #1b5e20; 
+            padding: 15px; 
+            border-radius: 10px; 
+            color: white;
+        }
+        section { 
+            background: rgba(255, 255, 255, 0.8); 
+            margin: 20px auto; 
+            padding: 15px; 
+            border-radius: 10px; 
+            width: 80%;
+            position: relative;
+        }
+        .product-section {
+            background: url('https://via.placeholder.com/800x400') no-repeat center center/cover;
+            color: black;
+            padding: 20px;
+        }
+        ul { list-style: none; padding: 0; }
+        ul li { 
+            background: rgba(255, 255, 255, 0.7); 
+            padding: 10px; 
+            margin: 5px; 
+            border-radius: 5px; 
+        }
+        a { color: darkgreen; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
     <header>
         <h1>መቶ አለቃ</h1>
-        <p>የግንባታ መሳሪያ ማከፋፈያ </p>
+        <p>የግንባታ መሳሪያ አስመጪ እና አከፋፋየ</p>
     </header>
     
     <section>
         <h2>ስለ እኛ</h2>
-        <p>መቶ አለቃ በኢትዮጵያ ውስጥ የግንባታ መሳሪያዎችን እና መሳሪያ ምርቶችን የሚያቀርብ  ነው።</p>
+        <p>መቶ አለቃ በኢትዮጵያ ውስጥ የግንባታ መሳሪያዎችን አስመጪ እና አከፋፋየ እና የተልያዩ ምርቶችን አቅራቢ ደርጅት ነው።</p>
     </section>
     
-    <section>
+    <section class="product-section">
         <h2>የምንሸጣቸው ምርቶች</h2>
         <ul>
             <li>ቲነር (Thinner)</li>
-            <li>ቦው ሶ (Bow Saw)</li>
-            <li>ቀለም ባለን ብሩሽ (Balanced Brushes)</li>
-            <li>ቀለም (Paint)</li>
-            <li>አሸዋ ወረቀት (Sand Paper)</li>
+            <li>ቦው ሶ (Bow Saw blade)</li>
+            <li>ቀለም ብሩሽ (Paint Brushes)</li>
+            <li>የመኪና ቀለም (Metal Paint)</li>
+            <li>ብርጭቆ ወረቀት (Sand Paper)</li>
             <li>ላከር (Lacquer)</li>
             <li>ማስኪንግ ቴፕ (Masking Tape)</li>
             <li>ግራይንደር ዲስክ (Grinder Disc)</li>
-            <li>ቁልፎች  (Keys )</li>
+            <li>የገቢ ቁልፎች (Keys)</li>
             <li>የበር ቁልፎች (Door Keys)</li>
         </ul>
     </section>
     
     <section>
         <h2>አግኙን</h2>
-        <p>ስልክ፡ 0911511919</p>
-        <p>ኢሜል፡ metoaleka@gmail.com</p>
+        <p>📞 ስልክ፡ <a href="tel:251911511919">251911511919</a></p>
+        <p>📧 ኢሜል፡ <a href="mailto:metoaleeka@gmail.com">metoaleeka@gmail.com</a></p>
+        <p>🌍 ድህረ ገፅ፡ <a href="https://metoaleka.github.io/" target="_blank">metoaleka.github.io</a></p>
+        <p>📍 ቦታ፡ <a href="https://maps.app.goo.gl/NsYxkwBYcJ7J2KXD6" target="_blank">Google Maps ላይ ይፈልጉ</a></p>
     </section>
     
     <footer>
